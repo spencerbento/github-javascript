@@ -133,10 +133,31 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 }
 
+
 .paciente-invalido{
 	background-color:lightcoral;
 }
 
+/* "#" Identificador de 'Ids' é usado quando vc quer que um estilo se aplique somente naquele elemento e em nenhum outro. 
+Um identificador é único e não pode ter repetições */
 #mensagens-erro{
 	color: red;
+}
+
+
+/* "." Identificador de 'classes' é usado quando vc quer que o mesmo estilo se repita em outra parte do seu código. 
+Você pode colocar vários elementos com a mesma classe para todos terem o mesmo estilo */
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel{
+	display: none;
 }
